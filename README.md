@@ -1,4 +1,4 @@
-# Spring Scheduler
+# Spring Boot Redis Session
 
 ## 1. 설명
 Spring Boot에서 Redis와 연동하여 Session Storage로 사용하는 예제이다.
