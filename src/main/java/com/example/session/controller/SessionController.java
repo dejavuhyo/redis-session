@@ -12,7 +12,8 @@ public class SessionController {
     public String login(HttpSession session) {
 
         // 세션 생성
-        session.setMaxInactiveInterval(30 * 60); // timeout 30분 설정
+//        session.setMaxInactiveInterval(30 * 60); // timeout 30분 설정
+        session.setMaxInactiveInterval(-1);
         session.setAttribute("id", "userid");
         session.setAttribute("name", "username");
         return session.getId();
